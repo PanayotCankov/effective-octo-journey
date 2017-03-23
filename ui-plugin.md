@@ -20,7 +20,8 @@ Observable
 This is the class that implements the [Observer](https://en.wikipedia.org/wiki/Observer_pattern) design-pattern. Every node within the Visual Tree should support the addEventListener/removeEventListener routine, hence the base class.
 
 ### [ViewBase](???)
-This class provides the visual tree node implementation, the ViewBase.style object, support for CSS styling, bindable properties and inheritance of certain properties (color, bindingContext to name a few).
+This class provides the backbone of the JavaScript visual tree node implementation, the ViewBase.style object, support for CSS styling, bindable properties and inheritance of certain properties (color, bindingContext to name a few).
 
 ### [View](http://docs.nativescript.org/api-reference/classes/_ui_core_view_.view.html)
 At an abstract level, *View* describes an object that has visual representation on the screen. It participates in the life-cycle and layout passes. The supports the management of a native UI view including propagation of property values to the native view and event subscriptions for native events.
+
